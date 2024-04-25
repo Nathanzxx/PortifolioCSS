@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #212126, #666A73, #A6A6A6);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+h1 {
+    margin: 15px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    animation: pulsate 1.5s infinite alternate;
+    font-family: "Rubik", sans-serif;
+}
+
+.neonText {
+    color: #ffffff;
+    text-shadow:
+        /* White glow */
+        0 0 7px #ffffffd7,
+        0 0 10px #ffffffa7,
+        0 0 21px #ffffff8a,
+        /* Green glow */
+        0 0 42px rgb(0, 0, 0),
+        0 0 82px rgb(0, 0, 0),
+        0 0 92px rgb(0, 0, 0),
+        0 0 102px rgb(0, 0, 0),
+        0 0 151px rgb(0, 0, 0);
+}
+
+p {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    background-color: black;
+    height: 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    font-family: "Rubik", sans-serif;
+    margin: 80px;
+    padding-top: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 136, 255);
+    scale: 4rem;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes pulsate {
+    100% {
+        /* Larger blur radius */
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px rgb(0, 0, 0),
+            0 0 80px rgb(0, 0, 0),
+            0 0 90px rgb(0, 0, 0),
+            0 0 100px rgb(0, 0, 0),
+            0 0 150px rgb(0, 0, 0);
+    }
+
+    0% {
+        /* A slightly smaller blur radius */
+        text-shadow:
+            0 0 4px #fff,
+            0 0 10px #fff,
+            0 0 18px #fff,
+            0 0 38px rgb(0, 0, 0),
+            0 0 73px rgb(0, 0, 0),
+            0 0 80px rgb(0, 0, 0),
+            0 0 94px rgb(0, 0, 0),
+            0 0 140px rgb(0, 0, 0);
+    }
+}

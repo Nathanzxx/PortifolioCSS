@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/portifolio.css">
+</head>
+
+<body>
+    <nav>
+        <a href="portifolio1.html">home</a>
+        <a href="portifolio2.html">sobre</a>
+        <a href="portifolio3.html">projetos</a>
+    </nav>
+    <br>
+    <h1 class="neonText">
+        Meu Portfólio
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolor, voluptatem laboriosam nihil et
+        laudantium velit aspernatur totam cumque sint! Voluptas officia autem modi porro nam? Sunt ducimus dolorem
+        consectetur.
+    </p>
+</body>
+<a href="#"><button class="img"><img src="images-removebg-preview.png" alt=""></button></a>
+</html>
